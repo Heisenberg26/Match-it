@@ -1,6 +1,6 @@
 import "./App.css";
 import Header from "./Header";
-import Tindercards from "./tindercards";
+import Tindercards from "./Tindercards";
 function App() {
   return (
     <div className="App">
