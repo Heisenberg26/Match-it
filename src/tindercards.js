@@ -10,7 +10,7 @@ function Tindercards() {
     },
     {
       name: "Tristan Tate",
-      url: "https://tristan-tate.com/wp-content/uploads/2022/12/tristian-tate-1024x1024.jpg",
+      url: "https://images.news18.com/ibnlive/uploads/2022/08/andere.jpg",
     },
   ]);
 
@@ -24,6 +24,7 @@ function Tindercards() {
 
 
   return (
+    
     <div className="tinderCards">
       <div className="tinderCards_cardContainer">
       {people.map((person) => (
@@ -36,13 +37,14 @@ function Tindercards() {
             <div style={{backgroundImage: "url(" + person.url + ")"}}
             className="card">
               <h2>{person.name}</h2>
-
             </div>
         </TinderCard>
       ))}
       </div>
     </div>
+    
+  
+    
   );
 }
-
 export default Tindercards;
